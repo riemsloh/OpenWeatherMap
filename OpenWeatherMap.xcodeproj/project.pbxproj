@@ -13,6 +13,8 @@
 		EDDAB9A82CAD93D20050646C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDAB9A72CAD93D20050646C /* Preview Assets.xcassets */; };
 		EDDAB9B12CAD960D0050646C /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDAB9B02CAD960D0050646C /* UnavailableView.swift */; };
 		EDDAB9B32CAD98E80050646C /* PersonalWeatherStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDAB9B22CAD98E80050646C /* PersonalWeatherStation.swift */; };
+		EDDAB9B62CAD995B0050646C /* OpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDAB9B52CAD995B0050646C /* OpenWeatherMap.swift */; };
+		EDDAB9B82CAD99830050646C /* APIOpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDAB9B72CAD99830050646C /* APIOpenWeatherMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EDDAB9A92CAD93D20050646C /* OpenWeatherMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWeatherMap.entitlements; sourceTree = "<group>"; };
 		EDDAB9B02CAD960D0050646C /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
 		EDDAB9B22CAD98E80050646C /* PersonalWeatherStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWeatherStation.swift; sourceTree = "<group>"; };
+		EDDAB9B52CAD995B0050646C /* OpenWeatherMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMap.swift; sourceTree = "<group>"; };
+		EDDAB9B72CAD99830050646C /* APIOpenWeatherMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIOpenWeatherMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EDDAB99F2CAD93CC0050646C /* OpenWeatherMap */ = {
 			isa = PBXGroup;
 			children = (
+				EDDAB9B42CAD992D0050646C /* Models */,
 				EDDAB9AF2CAD95ED0050646C /* Views */,
 				EDDAB9A02CAD93CC0050646C /* OpenWeatherMapApp.swift */,
 				EDDAB9A22CAD93CC0050646C /* ContentView.swift */,
@@ -81,6 +86,15 @@
 				EDDAB9B22CAD98E80050646C /* PersonalWeatherStation.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EDDAB9B42CAD992D0050646C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDDAB9B52CAD995B0050646C /* OpenWeatherMap.swift */,
+				EDDAB9B72CAD99830050646C /* APIOpenWeatherMap.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDAB9B62CAD995B0050646C /* OpenWeatherMap.swift in Sources */,
 				EDDAB9A32CAD93CC0050646C /* ContentView.swift in Sources */,
 				EDDAB9B32CAD98E80050646C /* PersonalWeatherStation.swift in Sources */,
 				EDDAB9B12CAD960D0050646C /* UnavailableView.swift in Sources */,
+				EDDAB9B82CAD99830050646C /* APIOpenWeatherMap.swift in Sources */,
 				EDDAB9A12CAD93CC0050646C /* OpenWeatherMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
