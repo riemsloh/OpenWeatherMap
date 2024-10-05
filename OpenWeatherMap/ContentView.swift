@@ -27,9 +27,9 @@ struct ContentView: View {
             //Text(wuStation)
             Button("load", systemImage: "gearshape.arrow.triangle.2.circlepath"){
                 Task{
-                    //await fetchShortRangeForecast()
-                   // await fetchCurrent()
-                    await fetchFiveDay()
+                    await fetchShortRangeForecast()
+                   //await fetchCurrent()
+                    //await fetchFiveDay()
                    
                 }
             }
