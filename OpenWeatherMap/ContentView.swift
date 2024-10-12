@@ -29,7 +29,7 @@ struct ContentView: View {
                 Task{
                     await fetchShortRangeForecast()
                    //await fetchCurrent()
-                    //await fetchFiveDay()
+                    await fetchFiveDay()
                    
                 }
             }
